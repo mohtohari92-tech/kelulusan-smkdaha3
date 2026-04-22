@@ -657,12 +657,11 @@ function cari() {
     : `<div class="foto-ph">👤</div>`;
 
   const msg = lulus
-    ? `🎉 Selamat! <strong>${siswa.nama}</strong> dinyatakan <strong>LULUS</strong> dari SMK Pawyatan Daha 3 Kediri Tahun Pelajaran 2025/2026. Teruslah berprestasi dan raih masa depan yang gemilang!`
+    ? `🎉 Selamat! <strong>${siswa.nama}</strong> dinyatakan <strong>LULUS</strong> dari SMK Pawyatan Daha 3 Kediri Tahun Pelajaran 2025/2026. Surat Keterangan Lulus (SKL) bisa di ambil saat jam sekolah mulai tanggal 05 Mei 2026. Teruslah berprestasi dan raih masa depan yang gemilang!`
     : `Berdasarkan hasil penilaian, <strong>${siswa.nama}</strong> belum dinyatakan lulus pada tahun pelajaran ini. Tetap semangat dan terus berusaha untuk meraih yang terbaik!`;
 
   wrap.innerHTML = `
     <div class="result-card ${lulus?'lulus':'tl'}">
-      <div class="status-ribbon">✦ Hasil Penilaian Asesmen Sumatif Akhir Jenjang 2025/2026 ✦</div>
       <div class="card-body">
         <div class="foto-box">${fotoHtml}</div>
         <div class="info-block">
